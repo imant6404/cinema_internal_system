@@ -1,0 +1,1 @@
+package com.example.course_work_cinema.service;import com.example.course_work_cinema.entity.Hall;import java.util.List;import java.util.Optional;public interface HallService {    List<Hall> findAll();    void save(Hall hall);    Optional<Hall> findById(Integer integer);    void deleteById(Integer integer);}
